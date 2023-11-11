@@ -13,7 +13,7 @@ function Forms() {
     const lastname = lastnameInput.value;
     const email = emailInput.value;
 
-    fetch("https://azuresaturdayapi.azure-api.net/upload", {
+    fetch("https://azuresaturdayapi2.azure-api.net/upload", {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
